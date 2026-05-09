@@ -95,3 +95,7 @@ Checkout endpoint:
 - لا ترفع `.env.local`.
 - لا تشارك API keys في الشات أو GitHub.
 - استخدم Supabase service role فقط في Vercel server environment.
+
+
+## Vercel stable install
+This build uses npm directly to avoid pnpm/corepack registry issues on Vercel. Do not add pnpm-lock.yaml.
